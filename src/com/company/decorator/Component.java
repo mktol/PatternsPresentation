@@ -1,5 +1,6 @@
 package com.company.decorator;
 
 
-public class Component {
+public abstract class Component {
+    abstract void doJob();
 }
