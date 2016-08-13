@@ -1,7 +1,8 @@
 package com.company.proxy;
 
 /**
- * Created by fagim on 13.08.16.
+ * Interface entity
  */
-public class ICar {
+public interface ICar {
+    String move();
 }
