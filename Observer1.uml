@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.company.observer.ISomeObserver</OriginalElement>
+  <nodes>
+    <node x="28.0" y="0.0">com.company.observer.ISubject</node>
+    <node x="178.5" y="80.0">com.company.observer.SomeObserver</node>
+    <node x="177.0" y="0.0">com.company.observer.ISomeObserver</node>
+    <node x="0.0" y="80.0">com.company.observer.Subject</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.observer.Subject" target="com.company.observer.ISomeObserver">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.company.observer.Subject" target="com.company.observer.ISubject">
+      <point x="0.0" y="-48.5" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.company.observer.SomeObserver" target="com.company.observer.ISomeObserver">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="117.5" y="55.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

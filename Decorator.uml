@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.company.decorator.AbstractDecorator</OriginalElement>
+  <nodes>
+    <node x="367.0" y="249.0">com.company.decorator.ConcreteDecorator</node>
+    <node x="262.0" y="0.0">com.company.decorator.Component</node>
+    <node x="185.99999999999997" y="249.0">com.company.decorator.ConcreteDecoratorMeat</node>
+    <node x="398.5" y="124.5">com.company.decorator.ConcreteComponent</node>
+    <node x="154.49999999999997" y="102.0">com.company.decorator.AbstractDecorator</node>
+    <node x="0.0" y="249.0">com.company.decorator.ConcreteDecoratorButter</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.decorator.ConcreteDecorator" target="com.company.decorator.AbstractDecorator">
+      <point x="0.0" y="-26.0" />
+      <point x="434.0" y="224.0" />
+      <point x="341.16666666666663" y="224.0" />
+      <point x="74.66666666666669" y="48.5" />
+    </edge>
+    <edge source="com.company.decorator.ConcreteDecoratorButter" target="com.company.decorator.AbstractDecorator">
+      <point x="0.0" y="-26.0" />
+      <point x="83.0" y="224.0" />
+      <point x="191.8333333333333" y="224.0" />
+      <point x="-74.66666666666669" y="48.5" />
+    </edge>
+    <edge source="com.company.decorator.AbstractDecorator" target="com.company.decorator.Component">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.company.decorator.ConcreteComponent" target="com.company.decorator.Component">
+      <point x="0.0" y="-26.0" />
+      <point x="471.5" y="77.0" />
+      <point x="362.83333333333337" y="77.0" />
+      <point x="40.33333333333337" y="26.0" />
+    </edge>
+    <edge source="com.company.decorator.ConcreteDecoratorMeat" target="com.company.decorator.AbstractDecorator">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="250.5" y="95.0" />
+  <SelectedNodes>
+    <node>com.company.decorator.Component</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

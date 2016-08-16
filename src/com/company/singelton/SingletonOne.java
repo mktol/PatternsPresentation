@@ -7,12 +7,13 @@ public class SingletonOne {
     private static SingletonOne singletonOne;
     public String name;
     private int age;
-    private SingletonOne(){
+
+    private SingletonOne() {
         System.out.println("Create instance of singleton.");
     }
 
-    public static SingletonOne getInstance(){
-        if(singletonOne==null){
+    public static SingletonOne getInstance() {
+        if (singletonOne == null) {
             System.out.println("return existing instance");
             return singletonOne = new SingletonOne(); // lazy initialization
         }
@@ -32,6 +33,6 @@ public class SingletonOne {
 
     @Override
     public String toString() {
-        return "Im singleton "+name+", age "+age;
+        return "Im singleton " + name + ", age " + age;
     }
 }

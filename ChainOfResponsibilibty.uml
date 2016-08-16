@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.company.chainOfResponsibility.EmailErrorHandler</OriginalElement>
+  <nodes>
+    <node x="34.25" y="80.0">java.lang.Enum</node>
+    <node x="387.0" y="204.0">com.company.chainOfResponsibility.FaxErrorHandler</node>
+    <node x="112.0" y="0.0">java.lang.Comparable</node>
+    <node x="196.0" y="202.0">com.company.chainOfResponsibility.EmailErrorHandler</node>
+    <node x="44.75" y="204.0">com.company.chainOfResponsibility.MessagePriority</node>
+    <node x="578.0" y="202.0">com.company.chainOfResponsibility.IssueRaiser</node>
+    <node x="39.75" y="328.0">com.company.chainOfResponsibility.Message</node>
+    <node x="389.25" y="122.0">com.company.chainOfResponsibility.IReceiver</node>
+    <node x="0.0" y="0.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.chainOfResponsibility.IssueRaiser" target="com.company.chainOfResponsibility.IReceiver">
+      <point x="0.0" y="-26.0" />
+      <point x="671.0" y="172.0" />
+      <point x="462.15" y="172.0" />
+      <point x="32.400000000000006" y="15.0" />
+    </edge>
+    <edge source="com.company.chainOfResponsibility.FaxErrorHandler" target="com.company.chainOfResponsibility.IReceiver">
+      <point x="42.75" y="-26.0" />
+      <point x="515.25" y="182.0" />
+      <point x="445.95000000000005" y="182.0" />
+      <point x="16.200000000000017" y="15.0" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.io.Serializable">
+      <point x="-34.75" y="-37.0" />
+      <point x="69.0" y="55.0" />
+      <point x="46.0" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="java.lang.Enum" target="java.lang.Comparable">
+      <point x="34.75" y="-37.0" />
+      <point x="138.5" y="55.0" />
+      <point x="161.5" y="55.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.company.chainOfResponsibility.Message" target="com.company.chainOfResponsibility.MessagePriority">
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="com.company.chainOfResponsibility.EmailErrorHandler" target="com.company.chainOfResponsibility.IReceiver">
+      <point x="-42.75" y="-26.0" />
+      <point x="238.75" y="172.0" />
+      <point x="397.35" y="172.0" />
+      <point x="-32.400000000000006" y="15.0" />
+    </edge>
+    <edge source="com.company.chainOfResponsibility.MessagePriority" target="java.lang.Enum">
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="202.0" y="210.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
