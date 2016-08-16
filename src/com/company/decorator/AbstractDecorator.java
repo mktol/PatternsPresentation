@@ -1,7 +1,7 @@
 package com.company.decorator;
 
 /**
- * Created by fagim on 13.08.16.
+ * Abstract decorator
  */
 public class AbstractDecorator extends Component{
     private Component component;

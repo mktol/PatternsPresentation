@@ -6,9 +6,12 @@ package com.company.proxy;
 public class Main {
     public static void main(String[] args) {
         ICar car = new ConcreteCar("Ivano-Frankivsk");
-        System.out.println(car.move());
+        printCar(car);
 
         ICar car1 = new ConcreteCarProxy();
-        System.out.println(car1.move());
+        printCar(car1);
+    }
+    public static void printCar(ICar car){
+        System.out.println(car.move());
     }
 }

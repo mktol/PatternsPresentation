@@ -7,12 +7,12 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("*** Decorator sample ***");
         ConcreteComponent bread = new ConcreteComponent();
-        ConcreteDecorator decorator = new ConcreteDecorator();
-        decorator.setComponent(bread);
-        decorator.doJob();
+        ConcreteDecorator jam = new ConcreteDecorator();
+        jam.setComponent(bread);
+        jam.doJob();
         System.out.println("*************************");
         ConcreteDecoratorButter butter = new ConcreteDecoratorButter();
-        butter.setComponent(decorator);
+        butter.setComponent(jam);
         butter.doJob();
         System.out.println("*************************");
         ConcreteDecoratorMeat meat = new ConcreteDecoratorMeat();

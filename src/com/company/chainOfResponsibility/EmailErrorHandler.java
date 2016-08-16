@@ -2,6 +2,7 @@ package com.company.chainOfResponsibility;
 
 
 public class EmailErrorHandler implements IReceiver {
+
     private IReceiver nextReceiver;
 
     public EmailErrorHandler(IReceiver nextReceiver) {

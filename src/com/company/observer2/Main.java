@@ -21,9 +21,9 @@ public class Main {
         subject1.register(observer2);
 
         System.out.println("change int value");
-        subject.setAnInt(43);
+        subject.setAnInt(43); //  something happened
         System.out.println("---------------------------------------");
-        subject1.setUpdateValue(56);
+        subject1.setUpdateValue(56); //
 
     }
 }

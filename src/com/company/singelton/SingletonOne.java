@@ -12,7 +12,7 @@ public class SingletonOne {
         System.out.println("Create instance of singleton.");
     }
 
-    public static SingletonOne getInstance() {
+    public static synchronized SingletonOne getInstance() {
         if (singletonOne == null) {
             System.out.println("return existing instance");
             return singletonOne = new SingletonOne(); // lazy initialization
