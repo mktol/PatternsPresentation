@@ -5,9 +5,21 @@ package com.company.servcieLocator;
  */
 public class ServiceLocator {
 
-    private static Cache cache = new Cache();
+    private static ServiceLocator serviceLocator;
 
-    public static Service getService(String name){
+    private ServiceLocator() {
+    }
+
+    public static ServiceLocator getInstance(){
+        if(serviceLocator == null){
+            serviceLocator = new ServiceLocator();
+        }
+        return serviceLocator;
+    }
+
+    private  Cache cache = new Cache();
+
+    public  Service getService(String name){
         Service service = cache.getService(name);
 
         if(service != null){
