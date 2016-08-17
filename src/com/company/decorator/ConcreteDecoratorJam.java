@@ -3,7 +3,7 @@ package com.company.decorator;
 /**
  * Concrete decorator
  */
-public class ConcreteDecorator extends AbstractDecorator {
+public class ConcreteDecoratorJam extends AbstractDecorator {
     @Override
     void doJob() {
         super.doJob();

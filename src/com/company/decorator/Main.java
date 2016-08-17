@@ -5,9 +5,10 @@ package com.company.decorator;
  */
 public class Main {
     public static void main(String[] args) {
+
         System.out.println("*** Decorator sample ***");
         ConcreteComponent bread = new ConcreteComponent();
-        ConcreteDecorator jam = new ConcreteDecorator();
+        ConcreteDecoratorJam jam = new ConcreteDecoratorJam();
         jam.setComponent(bread);
         jam.doJob();
         System.out.println("*************************");
